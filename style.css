@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "polly";
+  src: url("PollyR.ttf");
+}
+body{
+  margin: 0;
+}
+html {
+  overflow-x: hidden;
+}
+.bg-sunix {
+  background: #3D2461;
+}
+.text-sunix {
+  color: #3D2461;
+}
+.rounded-50 {
+  border-radius: 5vh;
+}
+.cms-3 {
+  margin-left: 3vh;
+}
+.cme-5 {
+  margin-right: 8vh;
+}
+.cfs-0 {
+  font-size: 7vh;
+}
+.cfs-1 {
+  font-size: 5vh;
+}
+.cfs-2 {
+  font-size: 3vh;
+}
+.cfs-3 {
+  font-size: 2.5vh;
+}
+.logo {
+  background-image: url(images/logo.png);
+  background-size: 100% 100%;
+  height: 7vh;
+  width: 21vh;
+  margin-top: 3vh;
+  margin-left: 8vh;
+}
+.starter-img {
+  background-image: url(images/starter.jpg);
+  background-size: 100% 100%;
+  height: 80vh;
+  width: 150vh;
+  animation: starter 10s infinite;
+}
+@keyframes starter {
+  0% {
+    background-image: url(images/starter.jpg);
+    background-size: 100% 100%;
+  }
+  30% {
+    background-image: url(images/starter-2.png);
+    background-size: 100% 100%;
+  }
+  60% {
+    background-image: url(images/starter-3.png);
+    background-size: 100% 100%;
+  }
+  90% {
+    background-image: url(images/starter.jpg);
+    background-size: 100% 100%;
+  }
+}
+.starter-div {
+  background: rgba(255, 255, 255, 0.8);
+  margin-left: 5vh;
+  height: 50vh;
+  width: 50vh;
+}
+.dark-hover {
+  transition: 0.4s;
+}
+.dark-hover:hover {
+  margin-top: -0.5vh;
+}
+.hu-tao {
+  background-image: url(images/hutao2.png);
+  background-size: 100% 100%;
+  height: 90vh;
+  width: 70vh;
+}
+.quad {
+  height: 50vh;
+  width: 50vh;
+}
+.venti {
+  background-image: url(images/venti2.png);
+  background-size: 100% 100%;
+  height: 90vh;
+  width: 65vh;
+  animation: archonts 5s infinite;
+}
+@keyframes archonts {
+  0% {
+    background-image: url(images/venti2.png);
+    background-size: 100% 100%;
+  }
+  30% {
+    background-image: url(images/zhongli2.png);
+    background-size: 100% 100%;
+  }
+  60% {
+    background-image: url(images/raiden2.png);
+    background-size: 100% 100%;
+  }
+  90% {
+    background-image: url(images/venti2.png);
+    background-size: 100% 100%;
+  }
+}
